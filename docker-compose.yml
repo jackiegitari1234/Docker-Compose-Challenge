@@ -2,6 +2,7 @@ wordpress:
   image: wordpress
   links:
     - wordpress_db:mysql
+  working_dir: /var/www/html
   volumes:
      - ~/wordpress/wpcontent:/var/www/html
   ports:
