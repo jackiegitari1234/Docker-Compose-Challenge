@@ -54,7 +54,8 @@ define( 'AUTH_SALT',        'e80730ab69556ad258dc314e3feb970471c5e243');
 define( 'SECURE_AUTH_SALT', 'd7ad3ccc7b2b010d93d8e2f89295ed74afb8ec9d');
 define( 'LOGGED_IN_SALT',   '8a96f9c22ed95c101e9d102a84f9ae44e7f99385');
 define( 'NONCE_SALT',       'c0f9b01325be5e973f5e4ed4806e6d4f98d23a83');
-
+define('WP_SITEURL', 'http://' . $_SERVER['HTTP_HOST']);
+define('WP_HOME', 'http://' . $_SERVER['HTTP_HOST']);
 /**#@-*/
 
 /**
